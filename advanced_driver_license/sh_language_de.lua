@@ -1,7 +1,7 @@
 ADL = ADL or {}
 ADL.Language = ADL.Language or {}
 
-ADL.Language["en"] = {
+ADL.Language["de"] = {
     ["driverLicenseUpperCase"] = "Führerschein",
     ["licenseUppercase"] = "Lizenz",
     ["chooseLicense"] = "Wähle welche Lizenz",
