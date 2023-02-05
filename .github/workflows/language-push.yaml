@@ -1,0 +1,60 @@
+name: Push languages files to private repositories
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      -
+        name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - 
+        name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files_ignore: .github/**
+          json: true
+      - 
+        name: Set matrix value
+        id: set-matrix
+        run: echo "::set-output name=matrix::${{ steps.changed-files.outputs.all_changed_files }}}"
+
+  push:
+    needs: [ setup ]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        value: ${{fromJson(needs.setup.outputs.matrix)}}
+    steps:  
+      -
+        name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - 
+        name: Extract folder name of the path
+        id: folder-name
+        run: |
+          echo "FOLDER_NAME=$(dirname "${{ matrix.value }}")" >> $GITHUB_ENV
+      - 
+        name: Pushes test file
+        uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.PAT }}
+        with:
+          source_file: ${{ matrix.value }}
+          destination_repo: ${{ github.REPOSITORY_OWNER }}/${{ env.FOLDER_NAME }}
+          destination_folder: lua/${{ env.FOLDER_NAME }}/languages
+          user_email: github-actions@github.com
+          user_name: github-actions
+          commit_message: Synchronize language from public repository
+          destination_branch: dev
