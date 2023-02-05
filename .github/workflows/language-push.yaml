@@ -46,7 +46,7 @@ jobs:
         run: |
           echo "FOLDER_NAME=$(dirname "${{ matrix.value }}")" >> $GITHUB_ENV
       - 
-        name: Pushes test file
+        name: Push file
         uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
         env:
           API_TOKEN_GITHUB: ${{ secrets.PAT }}
