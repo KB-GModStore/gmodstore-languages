@@ -1,7 +1,3 @@
-// Translated by Miya
-// Steam Profile: https://steamcommunity.com/profiles/miyastudios
-// Gmodstore Profile: https://www.gmodstore.com/users/76561198378317227
-
 RCD = RCD or {}
 RCD.Language = RCD.Language or {}
 
@@ -316,4 +312,10 @@ RCD.Language["de"] = {
     ["timeToWaitNotify"] = "Ihr Fahrzeug wurde gestohlen. Sie müssen %s warten, bevor es wieder verfügbar ist",
     ["someoneInVehicle"] = "Es ist jemand im Fahrzeug",
 	["distanceToSell"] = "Maximale Entfernung für den Verkauf des Fahrzeugs",
+	["timeToStoleNewVehicle"] = "Zeit, um zu warten, bevor man ein neues Fahrzeug stiehlt",
+	["notifyToStoleNewVehicle"] = "Sie müssen %s warten, bevor Sie ein neues Fahrzeug stiehlen",
+	["vehicleDestroyed"] = "Sie können diese Aktion nicht ausführen, weil das Fahrzeug zerstört ist",
+	["cantReturnVehicleDestroyed"] = "Das Fahrzeug kann nicht zurückgegeben werden, wenn es zerstört ist",
+	["removeVehicleStolen"] = "Entfernen Sie gestohlene Fahrzeuge dauerhaft, wenn der Spieler keine Versicherung hat",
+	["noLoadFuel"] = "Speichern Sie das Kraftstoffvolumen der Fahrzeuge nicht",
 }
