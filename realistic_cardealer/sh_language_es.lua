@@ -311,4 +311,10 @@ RCD.Language["es"] = {
 	["timeToWaitNotify"] = "Tu vehículo ha sido robado, debes esperar %s antes de que esté disponible de nuevo",
 	["someoneInVehicle"] = "Hay alguien en el vehículo",
 	["distanceToSell"] = "Distancia máxima para vender el vehículo",
+	["timeToStoleNewVehicle"] = "Tiempo para esperar antes de robar un nuevo vehículo",
+	["notifyToStoleNewVehicle"] = "Necesitas esperar %s antes de robar un nuevo vehículo",
+	["vehicleDestroyed"] = "No puedes realizar esta acción porque el vehículo está destruido",
+	["cantReturnVehicleDestroyed"] = "No se puede devolver el vehículo cuando está destruido",
+	["removeVehicleStolen"] = "Elimina permanentemente los vehículos robados si el jugador no tiene seguro",
+	["noLoadFuel"] = "No guarde el combustible de los vehículos",
 }
