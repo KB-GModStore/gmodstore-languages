@@ -30,7 +30,7 @@ CharacterCreator.Language["de"] = {
     ["confirm"] = "BESTÄTIGEN",
     ["delete"] = "Löschen",
     ["update"] = "Aktualisieren",
-    ["job:"] = "Beruf :",
+    ["job:"] = "Beruf:",
     ["chooseCharacter"] = "CHARAKTER WÄHLEN",
     ["noDataFounded"] = "Keine Daten gefunden",
 }
