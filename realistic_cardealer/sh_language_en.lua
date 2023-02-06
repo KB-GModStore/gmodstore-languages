@@ -312,4 +312,10 @@ RCD.Language["en"] = {
 	["timeToWaitNotify"] = "Your vehicle was stolen you need to wait %s before it will be available again",
 	["someoneInVehicle"] = "There is someone in the vehicle",
 	["distanceToSell"] = "Maximum distance to sell the vehicule",
+	["timeToStoleNewVehicle"] = "Time to wait before stole a new vehicle",
+	["notifyToStoleNewVehicle"] = "You need to wait %s before stole a new vehicle",
+	["vehicleDestroyed"] = "You can't perform this action because the vehicle is destroyed",
+	["cantReturnVehicleDestroyed"] = "Can't return the vehicle when it's destroyed",
+	["removeVehicleStolen"] = "Permanently remove stolen vehicles if the player don't have insurance",
+	["noLoadFuel"] = "Don't save fuel of vehicles",
 }

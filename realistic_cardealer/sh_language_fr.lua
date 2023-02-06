@@ -312,4 +312,10 @@ RCD.Language["fr"] = {
 	["timeToWaitNotify"] = "Votre véhicule a été volé, vous devez attendre %s avant qu'il ne soit à nouveau disponible",
 	["someoneInVehicle"] = "Il y a quelqu'un dans le véhicule",
 	["distanceToSell"] = "Distance maximum pour vendre le véhicule",
+	["timeToStoleNewVehicle"] = "Temps à attendre avant de voler un nouveau véhicule",
+	["notifyToStoleNewVehicle"] = "Vous devez attendre %s avant de voler un nouveau véhicule",
+	["vehicleDestroyed"] = "Vous ne pouvez pas effectuer cette action car le véhicule est détruit",
+	["cantReturnVehicleDestroyed"] = "Impossible de retourner le véhicule lorsqu'il est détruit",
+	["removeVehicleStolen"] = "Supprimer définitivement les véhicules volés si le joueur n'a pas d'assurance",
+	["noLoadFuel"] = "Ne pas sauvegarder le carburant des véhicules",
 }
