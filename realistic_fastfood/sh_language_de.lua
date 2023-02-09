@@ -114,4 +114,12 @@ RFS.Language["de"] = {
     ["friesDesc"] = "Gefroren und fertig, die perfekte Ergänzung zum Burger.",
     ["cantSellOrderDistributor"] = "Sie können diesen Artikel verkaufen, weil er bei einem Händler aufgenommen wurde",
     ["notCooker"] = "Sie können diese Aktion nicht durchführen, weil Sie kein Koch sind",
+    ["disableDishes"] = "Dienst deaktivieren",
+	["enableDishes"] = "Dienst freigeben",
+	["move"] = "Verschieben",
+	["finishDishesOrder"] = "Ihre Bestellung war zu %s Prozent erfolgreich und Sie haben gerade %s gewonnen",
+	["permissionTerminal"] = "Erlaubnis zur Änderung von Preis \nund Menge des Terminals",
+	["permissionScreen"] = "Berechtigung für den Zugriff auf die Beantragung \noder Schließung von Aufträgen auf dem Bildschirm",
+	["terminalReward"] = "Sie haben gerade %s für die Bestellung an Ihrem Terminal verdient",
+    
 }
