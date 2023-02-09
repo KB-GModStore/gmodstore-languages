@@ -1,6 +1,7 @@
 Realistic_Police = Realistic_Police or {}
 Realistic_Police.Language = Realistic_Police.Language or {}
 
+-- Just little test to view if the language is been synced
 Realistic_Police.Language["fr"] = {
     ["criminalRecord"] = "Casier Judiciaire",
     ["recordOf"] = "Casier de",
