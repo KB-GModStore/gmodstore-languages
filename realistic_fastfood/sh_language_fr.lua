@@ -121,5 +121,5 @@ RFS.Language["fr"] = {
 	["permissionTerminal"] = "Les permissions donne accès à la\nmodification du prix et de la quantité",
 	["permissionScreen"] = "Les permissions donne accès à \nprendre et fermer les commandes",
 	["terminalReward"] = "Vous venez de gagner %s pour la commande faite à votre borne",
-	
+	["maxOrder"] = "Vous avez atteint le nombre maximum de commandes",
 }

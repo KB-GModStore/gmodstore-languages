@@ -121,5 +121,5 @@ RFS.Language["en"] = {
 	["permissionTerminal"] = "Permissions give the access to change\nprice and quantity of the terminal",
 	["permissionScreen"] = "Permissions give the access to claim\nor close order on the screen",
 	["terminalReward"] = "You have just earned %s for the order made at your terminal",
-	
+	["maxOrder"] = "You reached the maximum of orders",
 }
