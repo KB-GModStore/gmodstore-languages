@@ -121,5 +121,5 @@ RFS.Language["de"] = {
 	["permissionTerminal"] = "Erlaubnis zur Änderung von Preis \nund Menge des Terminals",
 	["permissionScreen"] = "Berechtigung für den Zugriff auf die Beantragung \noder Schließung von Aufträgen auf dem Bildschirm",
 	["terminalReward"] = "Sie haben gerade %s für die Bestellung an Ihrem Terminal verdient",
-    
+	["maxOrder"] = "Sie haben das Maximum an Aufträgen erreicht",
 }
