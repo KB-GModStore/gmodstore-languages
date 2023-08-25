@@ -317,5 +317,5 @@ RCD.Language["tr"] = {
     ["vehicleDestroyed"] = "Bu işlemi gerçekleştiremezsiniz çünkü araç yok edildi",
     ["cantReturnVehicleDestroyed"] = "Araç yok edildiğinde geri dönüş yapamazsınız",
     ["removeVehicleStolen"] = "Oyuncunun sigortası yoksa çalınan araçları kalıcı olarak sil",
-    ["noLoadFuel"] = "Araç yakıtını kaydetme",
+    ["noLoadFuel"] = "Araç yakıtını kaydetme"
 }
