@@ -57,4 +57,4 @@ jobs:
           user_email: github-actions@github.com
           user_name: github-actions
           commit_message: Synchronize language from public repository
-          destination_branch: dev
+          destination_branch: develop
