@@ -2,7 +2,7 @@ ACC2 = ACC2 or {}
 ACC2.Language = ACC2.Language or {}
 
 ACC2.Language["fr"] = {
-        ["undefined"] = "indéfini",
+        ["undefined"] = "indéfini", 
         ["adminSettingsTitle"] = "MENU ADMIN - CONFIGURATION",
         ["adminSettingsTitle2"] = "MENU ADMIN - CONFIG",
         ["adminSettingsDescription"] = "Configurer tous les paramètres de l'addon",
