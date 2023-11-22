@@ -286,5 +286,5 @@ ACC2.Language["fr"] = {
         ["selecteModels"] = "Sélectionner les modèles que vous souhaitez sur cette liste",
         ["noneGroup"] = "Aucun",
         ["compatibilitiesList"] = "PARAMÈTRES DE COMPATIBILITÉ",
-        ["enableCompatibility"] = "Activer la compatibilité %s sur votre serveur",
+        ["enableCompatibility"] = "Activer la compatibilité %s sur votre serveur"
 }
