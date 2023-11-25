@@ -10,6 +10,7 @@ ACC2.Language["ru"] = {
     ["generalSettings"] = "ОБЩИЕ НАСТРОЙКИ",
     ["saveSettings"] = "СОХРАНИТЬ НАСТРОЙКИ",
     ["useCustomNotification"] = "Использовать настраиваемое уведомление дополнения",
+	["enableCharacterSaveNotification"] = "Включение уведомления о сохранении символов",
     ["adminCommand"] = "Установить команду администратора по умолчанию",
     ["whitelistCommand"] = "Установить команду белого списка по умолчанию",
     ["configureFaction"] = "Создать фракции на вашем сервере",
@@ -287,4 +288,4 @@ ACC2.Language["ru"] = {
     ["noneGroup"] = "Нет",
     ["compatibilitiesList"] = "НАСТРОЙКИ СОВМЕСТИМОСТИ",
     ["enableCompatibility"] = "Включить совместимость %s на вашем сервере",
-    }
+}

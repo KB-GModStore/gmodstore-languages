@@ -10,6 +10,7 @@ ACC2.Language["de"] = {
     ["generalSettings"] = "ALLGEMEINE EINSTELLUNGEN",
     ["saveSettings"] = "EINSTELLUNGEN SPEICHERN",
     ["useCustomNotification"] = "Benutzerdefinierte Benachrichtigung des Addons verwenden",
+    ["enableCharacterSaveNotification"] = "Benachrichtigung beim Speichern von Zeichen aktivieren",
     ["adminCommand"] = "Das Standard-Admin-Befehl festlegen",
     ["whitelistCommand"] = "Den Standard-Whitelist-Befehl festlegen",
     ["configureFaction"] = "Fraktionen auf deinem Server erstellen",
