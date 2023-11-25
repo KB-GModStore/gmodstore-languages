@@ -10,6 +10,7 @@ ACC2.Language["en"] = {
 	["generalSettings"] = "GENERALS SETTINGS",
 	["saveSettings"] = "SAVE SETTINGS",
 	["useCustomNotification"] = "Use custom notification of the addon",
+	["enableCharacterSaveNotification"] = "Enable saving character notification",
 	["adminCommand"] = "Set the default admin command",
 	["whitelistCommand"] = "Set the default whitelist command",
 	["configureFaction"] = "Create factions on your server",

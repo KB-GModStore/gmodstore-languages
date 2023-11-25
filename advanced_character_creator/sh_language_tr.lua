@@ -10,6 +10,7 @@ ACC2.Language["tr"] = {
     ["generalSettings"] = "GENEL AYARLAR",
     ["saveSettings"] = "AYARLARI KAYDET",
     ["useCustomNotification"] = "Eklentinin özel bildirimini kullan",
+    ["enableCharacterSaveNotification"] = "Karakter kaydetme bildirimini etkinleştir",
     ["adminCommand"] = "Varsayılan yönetici komutunu ayarla",
     ["whitelistCommand"] = "Varsayılan beyaz liste komutunu ayarla",
     ["configureFaction"] = "Sunucunuzda factionlar oluşturun",

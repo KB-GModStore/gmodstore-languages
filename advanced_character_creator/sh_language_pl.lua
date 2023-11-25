@@ -10,6 +10,7 @@ ACC2.Language["pl"] = {
 	["generalSettings"] = "USTAWIENIA OGÓLNE",
 	["saveSettings"] = "ZAPISZ USTAWIENIA",
 	["useCustomNotification"] = "Użyj niestandardowego powiadomienia o dodatku",
+	["enableCharacterSaveNotification"] = "Włącz powiadomienie o zapisanym znaku",
 	["adminCommand"] = "Ustaw domyślne komendy admina",
 	["whitelistCommand"] = "Ustaw domyślną komende whitelist",
 	["configureFaction"] = "Stwórz frakcje na swoim serwerze",
