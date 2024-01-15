@@ -77,3 +77,4 @@ Realistic_Properties.Language["ptbr"] = {
     ["boughProperty"] = "Você comprou uma propriedade",
     ["permanent"] = "Permanente",
 }
+// PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)
