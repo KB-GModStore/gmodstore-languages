@@ -68,3 +68,4 @@ Realistic_Woodcutter.Language["ptbr"] = {
     ["placePlank"] = "Clique com o botão esquerdo para gerar uma \n Tábua e posicioná-lo \n com sua physics gun.",
     ["placePlank2"] = "Clique com o botão esquerdo para gerar \n o 3d2d em seu \n veículo ou entidade",
 }
+// PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)

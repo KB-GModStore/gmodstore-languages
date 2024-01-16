@@ -46,3 +46,4 @@ Realistic_Radio.Language["ptbr"] = {
     ["joinedyour"] = "entrou na sua frequência segura !",
     ["cantjoinyoursecure"] = "Você não pode entrar na sua frequência segura"
 }
+// PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)

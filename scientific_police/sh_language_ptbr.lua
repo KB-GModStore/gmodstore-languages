@@ -35,3 +35,4 @@ Scientific_Police.Language["ptbr"] = {
     ["ballisticTutorial"] = "Aqui está o scanner com esta máquina permitirá que você \n saiba o nome da arma usada",
     ["viewCorpsIdentityTutorial"] = "Ao pressionar E em cadáveres você pode encontrar \n os documentos de identidade e o nome dos mortos",
 }
+// PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)
