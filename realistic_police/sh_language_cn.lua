@@ -103,4 +103,5 @@ Realistic_Police.Language["cn"] = {
     ["seconds"] = "秒",
     ["cameraName"] = "相机名称",
     ["cameraConfiguration"] = "相机配置",
+     ["press"] = "按",
 }
