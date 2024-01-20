@@ -96,4 +96,5 @@ Realistic_Police.Language["es"] = {
     ["seconds"] = "Segundos",
     ["cameraName"] = "Nombre de la cámara",
     ["cameraConfiguration"] = "Configuración de la cámara",
+    ["press"] = "Pulsar",
 }
