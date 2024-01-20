@@ -101,4 +101,5 @@ Realistic_Police.Language["de"] = {
     ["seconds"] = "Sekunden",
     ["cameraName"] = "Name der Kamera",
     ["cameraConfiguration"] = "Kamera-Konfiguration",
+    ["press"] = "Druk op",
 }
