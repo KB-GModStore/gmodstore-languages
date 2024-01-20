@@ -103,4 +103,5 @@ Realistic_Police.Language["tr"] = {
     ["seconds"] = "saniye",
     ["cameraName"] = "Kamera Adı",
     ["cameraConfiguration"] = "Kamera Yapılandırması",
+    ["press"] = "ye basın",
 }
