@@ -101,4 +101,5 @@ Realistic_Police.Language["ru"] = {
     ["seconds"] = "сек.",
     ["cameraName"] = "Имя камеры",
     ["cameraConfiguration"] = "Настройка камеры",
+    ["press"] = "нажмите",
 }
