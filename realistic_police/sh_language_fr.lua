@@ -101,4 +101,5 @@ Realistic_Police.Language["fr"] = {
     ["seconds"] = "Secondes",
     ["cameraName"] = "Nom de la Caméra",
     ["cameraConfiguration"] = "Configuration des Caméras",
+    ["press"] = "Appuyer sur",
 }
