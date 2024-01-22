@@ -102,3 +102,4 @@ Realistic_Police.Language["ptbr"] = {
     ["cameraName"] = "Nome da câmera",
     ["cameraConfiguration"] = "Configuração da câmera",
 }
+// PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)
