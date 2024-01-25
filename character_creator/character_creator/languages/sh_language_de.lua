@@ -1,0 +1,36 @@
+CharacterCreator = CharacterCreator or {}
+CharacterCreator.Language = CharacterCreator.Language or {}
+
+CharacterCreator.Language["de"] = {
+    ["leave"] = "VERLASSEN",
+    ["money"] = "Geld",
+    ["job"] = "Beruf",
+    ["nationality"] = "Nationalität",
+    ["yourSexMale"] = "Dein Geschlecht: Männlich",
+    ["yourSexFemale"] = "Dein Geschlecht: Weiblich",
+    ["firstName"] = "Vorname - Roleplay",
+    ["surName"] = "Nachname - Roleplay",
+    ["create"] = "ERSTELLEN",
+    ["back"] = "ZURÜCK",
+    ["feminine"] = "Weiblich",
+    ["male"] = "Männlich",
+    ["createCharacter"] = "Charakter erstellen",
+    ["welcomeOn"] = "Willkommen auf ",
+    ["welcomeOnTheServer"] = "Willkommen auf dem Server, Einwohner.",
+    ["startAdventure"] = "ERSTE SCHRITTE",
+    ["createCharacter2"] = "ERSTELLE DEINEN CHARAKTER",
+    ["createCharacterTutorial"] = "Hier können Sie Ihren Charakter erstellen",
+    ["characterSaved"] = "Dein Charakter wurde gespeichert!",
+    ["deletion"] = "Character löschen.",
+    ["character"] = "Charakter",
+    ["characterDestruction"] = "Character löschen",
+    ["accept"] = "Akzeptieren",
+    ["cancel"] = "Abbrechen",
+    ["play"] = "SPIELEN",
+    ["confirm"] = "BESTÄTIGEN",
+    ["delete"] = "Löschen",
+    ["update"] = "Aktualisieren",
+    ["job:"] = "Beruf :",
+    ["chooseCharacter"] = "CHARAKTER WÄHLEN",
+    ["noDataFounded"] = "Keine Daten gefunden"
+}
