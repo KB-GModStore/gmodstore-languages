@@ -178,7 +178,6 @@ AAS.Language["de"] = {
     ["titleHorseMask2"] = "Pferde Maske 2",
     ["titleHorseMask3"] = "Pferde Maske 3",
     ["titleRussianHat"] = "Russenhut",
-
     ["descGingerBread"] = "Ein wunderschöner Lebkuchen",
     ["descCap"] = "Eine Mütze, wenn dir kalt ist!",
     ["descHeadphones"] = "Zu viel Lärm - dieses Item ist für dich gemacht",
@@ -273,5 +272,5 @@ AAS.Language["de"] = {
     ["descHorseMask"] = "ICH BIN EIN PFERD UWUWUWU",
     ["descHorseMask2"] = "ICH BIN EIN PFERD UWUWUWU",
     ["descHorseMask3"] = "ICH BIN EIN PFERD UWUWUWU",
-    ["descRussianHat"] = "Hardbass für immer epta!",
+    ["descRussianHat"] = "Hardbass für immer epta!"
 }
