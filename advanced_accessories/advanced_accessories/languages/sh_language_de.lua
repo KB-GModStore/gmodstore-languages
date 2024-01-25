@@ -82,7 +82,6 @@ AAS.Language["de"] = {
     ["adjustText"] = "Willst du dieses Item anpassen?",
     ["notOwned"] = "Du besitzt dieses Item nicht!",
     ["rankBlackList"] = "Rang Schwarze Liste",
-
     ["titleGingerBread"] = "Lebkuchen",
     ["titleCap"] = "Kappe",
     ["titleHeadphones"] = "Kopfhörer",
