@@ -46,12 +46,6 @@ jobs:
         run: |
           echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1) " >> $GITHUB_ENV
           echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2-) " >> $GITHUB_ENV
-
-          $(echo "${{ matrix.value }}" | cut -d'/' -f 1)          
-          $(echo "${{ matrix.value }}" | cut -d'/' -f 2-)
-
-          echo "REPOSITORY=${{ env.REPOSITORY }} "
-          echo "TARGET_FOLDER=${{ env.TARGET_FOLDER }} "
       - 
         name: Push file
         uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
