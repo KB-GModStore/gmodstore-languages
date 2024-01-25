@@ -44,7 +44,11 @@ jobs:
         name: Extract folder name of the path
         id: folder-name
         run: |
-          echo "FOLDER_NAME=$(dirname "${{ matrix.value }}")" >> $GITHUB_ENV
+          echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1) " >> $GITHUB_ENV
+          echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2-) " >> $GITHUB_ENV
+
+          echo "REPOSITORY=${{ env.REPOSITORY }} "
+          echo "TARGET_FOLDER=${{ env.TARGET_FOLDER }} "
       - 
         name: Push file
         uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
@@ -52,8 +56,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.PAT }}
         with:
           source_file: ${{ matrix.value }}
-          destination_repo: ${{ github.REPOSITORY_OWNER }}/${{ env.FOLDER_NAME }}
-          destination_folder: lua/${{ env.FOLDER_NAME }}/languages
+          destination_repo: ${{ github.REPOSITORY_OWNER }}/${{ env.REPOSITORY }}
+          destination_folder: lua/${{ env.TARGET_FOLDER }}
           user_email: github-actions@github.com
           user_name: github-actions
           commit_message: Synchronize language from public repository
