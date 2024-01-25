@@ -272,5 +272,5 @@ AAS.Language["de"] = {
     ["descHorseMask"] = "ICH BIN EIN PFERD UWUWUWU",
     ["descHorseMask2"] = "ICH BIN EIN PFERD UWUWUWU",
     ["descHorseMask3"] = "ICH BIN EIN PFERD UWUWUWU",
-    ["descRussianHat"] = "Hardbass für immer epta!"
+    ["descRussianHat"] = "Hardbass für immer epta!",
 }
