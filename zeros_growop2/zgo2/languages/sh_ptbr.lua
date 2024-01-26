@@ -249,44 +249,45 @@ if zgo2.config.SelectedLanguage == "ptbr" then
     zgo2.language[ "DryFirst" ] = "Ramo de erva daninha precisa ser seco primeiro!"
 
 	-- 1.1.0
-	zgo2.language[ "Remove" ] = "Remove"
+	zgo2.language[ "Remove" ] = "Remover"
 	zgo2.language[ "DoobyTable" ] = "DoobyTable"
 
 	-- 1.2.0
-	zgo2.language["Spawnlimit"] = "Spawnlimit reached!"
-	zgo2.language["DisplaySplicedPlantConfigs"] = "Display spliced plant configs"
-	zgo2.language["Created by"] = "Created by"
-	zgo2.language["InvalidPlantData"] = "This weed data does not exist anymore."
-	zgo2.language["SplicerNotEnoughData"] = "Not enough weed data!"
-	zgo2.language["InvalidName"] = "Invalid name!"
-	zgo2.language["NameToShort"] = "Name to short!"
-	zgo2.language["NameToLong"] = "Name to long!"
-	zgo2.language["EnterPlantName"] = "Enter plant name"
-	zgo2.language["Splice"] = "Splice"
-	zgo2.language["Splicer"] = "Splicer"
-	zgo2.language["Splicing"] = "Splicing"
-	zgo2.language["ToomanyPlants"] = "Too many different plants exist at the moment!"
-	zgo2.language["Tryagainlater"] = "Try again later."
+	zgo2.language["Spawnlimit"] = "Limite de spawn alcançado!"
+	zgo2.language["DisplaySplicedPlantConfigs"] = "Exibir configurações de planta emendada"
+	zgo2.language["Created by"] = "Criado por"
+	zgo2.language["InvalidPlantData"] = "Esses dados sobre ervas daninhas não existem mais."
+	zgo2.language["SplicerNotEnoughData"] = "Dados insuficientes sobre ervas daninhas!"
+	zgo2.language["InvalidName"] = "Nome inválido!"
+	zgo2.language["NameToShort"] = "Nome para abreviar!"
+	zgo2.language["NameToLong"] = "Nome muito longo!"
+	zgo2.language["EnterPlantName"] = "Digite o nome da planta"
+	zgo2.language["Splice"] = "Emendar"
+	zgo2.language["Splicer"] = "Emendador"
+	zgo2.language["Splicing"] = "Emenda"
+	zgo2.language["ToomanyPlants"] = "Existem muitas plantas diferentes no momento!"
+	zgo2.language["Tryagainlater"] = "Tente mais tarde."
 
 
 	-- 1.2.1
 	zgo2.language["Cooldown"] = "Cooldown"
-	zgo2.language["Chooseposition"] = "Choose position"
+	zgo2.language["Chooseposition"] = "Escolha a posição"
 
 	-- 1.3.0
-	zgo2.language["Mixer"] = "Mixer"
-	zgo2.language["Oven"] = "Oven"
+	zgo2.language["Mixer"] = "Misturador"
+	zgo2.language["Oven"] = "Forno"
 
 	-- 1.3.7
-	zgo2.language[ "Randomize Color" ] = "Randomize Color"
+	zgo2.language[ "Randomize Color" ] = "  Randomizar cor"
 
 	-- 1.4.0
-	zgo2.language[ "Backpack" ] = "Backpack"
-	zgo2.language[ "Deletion" ] = "Deletion"
-	zgo2.language[ "SeedLibary" ] = "SeedLibary"
-	zgo2.language["seedlibary_reset_tooltip"] = "Manually resets the inactivity timer for all your spliced weed seeds which are stored in here."
+	zgo2.language[ "Backpack" ] = "Mochila"
+	zgo2.language[ "Deletion" ] = "Eliminação"
+	zgo2.language[ "SeedLibary" ] = "Biblioteca de Sementes"
+	zgo2.language["seedlibary_reset_tooltip"] = "Redefine manualmente o cronômetro de inatividade para todas as sementes de ervas daninhas emendadas que estão armazenadas aqui."
 
 	-- 1.4.1
-	zgo2.language[ "Backpack_pickup_blocked" ] = "This entity class is being blocked!"
-	zgo2.language[ "Backpack_pickup_notowner" ] = "You dont own this!"
+	zgo2.language[ "Backpack_pickup_blocked" ] = "Esta classe de entidade está sendo bloqueada!"
+	zgo2.language[ "Backpack_pickup_notowner" ] = "Você não é dono disso!"
 end
+// PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)
