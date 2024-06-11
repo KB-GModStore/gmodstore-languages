@@ -1,7 +1,7 @@
 zfa = zfa or {}
 zfa.language = zfa.language or {}
 
-if (zfa.config.SelectedLanguage == "fr") then
+if (zfa.config.SelectedLanguage == "it") then
     zfa.language["EquipmentCrate"] = "Cassa attrezzature"
     zfa.language["NONE"] = "NESSUNO"
     zfa.language["Purchase"] = "Acquistare"
