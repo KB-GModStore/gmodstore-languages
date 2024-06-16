@@ -179,4 +179,5 @@ if (zwf.config.SelectedLanguage == "it") then
     // Update - 22.06.2020
     zwf.language.VGUI["Jobs"] = "Lavori"
     zwf.language.General["not_correct_job"] = "Non hai il lavoro giusto per questo!"
+    
 end

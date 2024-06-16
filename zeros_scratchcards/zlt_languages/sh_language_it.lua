@@ -124,4 +124,5 @@ if (zlt.config.SelectedLanguage == "it") then
     // Update 1.1.0
     zlt.language["instaUse_title"] = "Utilizzo istantaneo:"
     zlt.language["instaUse_desc"] = "Se attivato, il biglietto acquistato verrà utilizzato immediatamente dal giocatore."
+    
 end

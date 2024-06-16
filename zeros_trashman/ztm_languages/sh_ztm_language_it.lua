@@ -25,4 +25,5 @@ if (ztm.config.SelectedLanguage == "it") then
     ztm.language.General["WrongJob"] = "Mestiere sbagliato!"
     ztm.language.General["WrongRank"] = "Livello sbagliato!"
     ztm.language.General["TrashbagLimit"] = "Limite di sacchi di rifiuti raggiunto!" // Chiamato quando il giocatore non può generare altri sacchi di rifiuti
+    
 end

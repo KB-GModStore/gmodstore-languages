@@ -49,4 +49,5 @@ if (zyb.config.SelectedLanguage == "it") then
     zyb.language.VGUI["Installed"] = "Installato"
     zyb.language.VGUI["Buy"] = "Compra"
     zyb.language.VGUI["Sell"] = "Vendi"
+    
 end
