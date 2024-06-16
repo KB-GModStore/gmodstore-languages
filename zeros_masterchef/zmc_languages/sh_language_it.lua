@@ -427,4 +427,5 @@ if (zmc.config.SelectedLanguage == "it") then
 
 	zmc.language["comp_title_alcoholic"] = "Alcolico"
 	zmc.language["comp_desc_alcoholic"] = "Causa l'ebbrezza del giocatore"
+
 end

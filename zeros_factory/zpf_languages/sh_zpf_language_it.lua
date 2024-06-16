@@ -131,4 +131,5 @@ if (zpf.config.SelectedLanguage == "it") then
 
 	// Update 2.1.1
 	zpf.language.General["SingleUserMode"] = "Macchina in uso, attendere prego."
+    
 end

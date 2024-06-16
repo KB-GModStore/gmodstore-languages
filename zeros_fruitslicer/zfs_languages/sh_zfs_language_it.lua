@@ -70,4 +70,5 @@ if (zfs.config.selectedLanguage == "it") then
     zfs.language.Shop.PushWrongState = "Impossibile spingere il carrello quando è attivato!"
     zfs.language.Shop.NextButton = "Successivo"
     zfs.language.Shop.EditPrice = "Modifica il prezzo"
+
 end

@@ -45,4 +45,5 @@ if (zlm.config.SelectedLanguage == "it") then
     zlm.language.General["YouallreadyownaTrailer"] = "Possiedi già un rimorchio!"
     zlm.language.General["VehiclePurchased"] = "Veicolo acquistato!"
     zlm.language.General["Cost"] = "Costo"
+
 end

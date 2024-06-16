@@ -220,5 +220,4 @@ if (zpc2.config.SelectedLanguage == "it") then
 
     // Version 1.0.4
     zpc2.language.Tooltip["WindowMode"] = "Alterna tra modalità finestra e schermo intero."
-
 end

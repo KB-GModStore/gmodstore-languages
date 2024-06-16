@@ -134,4 +134,5 @@ if (zmlab2.config.SelectedLanguage == "it") then
     zmlab2.language["Lost"] = "Perso"
     zmlab2.language["Remember"] = "Ricorda!"
     zmlab2.language["Repeat"] = "Ripeti!"
+    
 end

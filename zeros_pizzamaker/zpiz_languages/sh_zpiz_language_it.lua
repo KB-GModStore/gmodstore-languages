@@ -23,4 +23,5 @@ if (zpiz.config.SelectedLanguage == "it") then
     zpiz.language.PizzaConsum_Bad = {"Potrebbe avere un cattivo sapore"}
     zpiz.language.Pizza_Ready = "Una pizza è pronta!"
     zpiz.language.Pizza_Burned = "Una pizza è appena bruciata!"
+    
 end
