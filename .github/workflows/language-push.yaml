@@ -28,38 +28,38 @@ jobs:
         id: set-matrix
         run: echo "::set-output name=matrix::${{ steps.changed-files.outputs.all_changed_files }}}"
 
-  push:
-    needs: [ setup ]
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        value: ${{fromJson(needs.setup.outputs.matrix)}}
-    steps:  
-      -
-        name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
-      - 
-        name: Extract folder name of the path
-        id: folder-name
-        run: |
-          echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1)" >> $GITHUB_ENV
-          echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2- | rev | cut -d '/' -f 2- | rev)" >> $GITHUB_ENV
-      - 
-        name: Push file
-        uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.PAT }}
-        with:
-          source_file: ${{ matrix.value }}
-          destination_repo: ${{ github.REPOSITORY_OWNER }}/${{ env.REPOSITORY }}
-          destination_folder: lua/${{ env.TARGET_FOLDER }}
-          user_email: github-actions@github.com
-          user_name: github-actions
-          commit_message: Synchronize language from public repository
-          destination_branch: develop
+  # push:
+  #   needs: [ setup ]
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       value: ${{fromJson(needs.setup.outputs.matrix)}}
+  #   steps:  
+  #     -
+  #       name: Checkout repository
+  #       uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 2
+  #     - 
+  #       name: Extract folder name of the path
+  #       id: folder-name
+  #       run: |
+  #         echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1)" >> $GITHUB_ENV
+  #         echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2- | rev | cut -d '/' -f 2- | rev)" >> $GITHUB_ENV
+  #     - 
+  #       name: Push file
+  #       uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
+  #       env:
+  #         API_TOKEN_GITHUB: ${{ secrets.PAT }}
+  #       with:
+  #         source_file: ${{ matrix.value }}
+  #         destination_repo: ${{ github.REPOSITORY_OWNER }}/${{ env.REPOSITORY }}
+  #         destination_folder: lua/${{ env.TARGET_FOLDER }}
+  #         user_email: github-actions@github.com
+  #         user_name: github-actions
+  #         commit_message: Synchronize language from public repository
+  #         destination_branch: develop
   kbrpPush:
     needs: [ setup ]
     runs-on: ubuntu-latest
@@ -83,12 +83,12 @@ jobs:
         name: Check if the env.REPOSITORY exists in the KB-RolePlay organization
         id: check-repo
         run: |
-          curl -s -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/KB-RolePlay/${{ env.REPOSITORY }} > /dev/null
-          echo "{\"REPOSITORY_EXISTS\":$?}" >> $GITHUB_OUTPUT
+          $status_code=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/KB-RolePlay/${{ env.REPOSITORY }})
+          echo "REPOSITORY_EXISTS=$status_code" >> $GITHUB_ENV
       - 
         name: Push file
         uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
-        if: steps.check-repo.outputs.REPOSITORY_EXISTS == 0
+        if: ${{ env.REPOSITORY_EXISTS < 400 }}
         env:
           API_TOKEN_GITHUB: ${{ secrets.PAT }}
         with:
