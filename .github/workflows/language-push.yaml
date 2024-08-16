@@ -83,8 +83,8 @@ jobs:
         name: Check if the env.REPOSITORY exists in the KB-RolePlay organization
         id: check-repo
         run: |
-          curl -s -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/orgs/KB-RolePlay/repos | jq -r '.[].name' | grep -q ${{ env.REPOSITORY }}
-          echo "REPOSITORY_EXISTS=$?" >> $GITHUB_ENV
+          curl -s -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/KB-RolePlay/${{ env.REPOSITORY }} > /dev/null
+          echo "::set-output name=REPOSITORY_EXISTS::$?"
       - 
         name: Push file
         uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
