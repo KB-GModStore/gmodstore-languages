@@ -79,11 +79,11 @@ jobs:
         run: |
           echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1)" >> $GITHUB_ENV
           echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2- | rev | cut -d '/' -f 2- | rev)" >> $GITHUB_ENV
-      -
+      - 
         name: Check if the env.REPOSITORY exists in the KB-RolePlay organization
         id: check-repo
         run: |
-          $status_code=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/KB-RolePlay/${{ env.REPOSITORY }})
+          status_code=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/KB-RolePlay/${{ env.REPOSITORY }})
           echo "REPOSITORY_EXISTS=$status_code" >> $GITHUB_ENV
       - 
         name: Push file
