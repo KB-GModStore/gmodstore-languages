@@ -84,7 +84,7 @@ jobs:
         id: check-repo
         run: |
           curl -s -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/repos/KB-RolePlay/${{ env.REPOSITORY }} > /dev/null
-          echo "::set-output name=REPOSITORY_EXISTS::$?"
+          echo "{\"REPOSITORY_EXISTS\":$?}" >> $GITHUB_OUTPUT
       - 
         name: Push file
         uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
