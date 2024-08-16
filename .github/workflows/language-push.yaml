@@ -60,3 +60,42 @@ jobs:
           user_name: github-actions
           commit_message: Synchronize language from public repository
           destination_branch: develop
+  kbrpPush:
+    needs: [ setup ]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        value: ${{fromJson(needs.setup.outputs.matrix)}}
+    steps:  
+      -
+        name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - 
+        name: Extract folder name of the path
+        id: folder-name
+        run: |
+          echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1)" >> $GITHUB_ENV
+          echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2- | rev | cut -d '/' -f 2- | rev)" >> $GITHUB_ENV
+      -
+        name: Check if the env.REPOSITORY exists in the KB-RolePlay organization
+        id: check-repo
+        run: |
+          curl -s -H "Authorization: token ${{ secrets.PAT }}" https://api.github.com/orgs/KB-RolePlay/repos | jq -r '.[].name' | grep -q ${{ env.REPOSITORY }}
+          echo "REPOSITORY_EXISTS=$?" >> $GITHUB_ENV
+      - 
+        name: Push file
+        uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
+        if: steps.check-repo.outputs.REPOSITORY_EXISTS == 0
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.PAT }}
+        with:
+          source_file: ${{ matrix.value }}
+          destination_repo: KB-RolePlay/${{ env.REPOSITORY }}
+          destination_folder: lua/${{ env.TARGET_FOLDER }}
+          user_email: github-actions@github.com
+          user_name: github-actions
+          commit_message: Synchronize language from public KB-GModStore repository
+          destination_branch: main
