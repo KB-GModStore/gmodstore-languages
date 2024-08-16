@@ -6,7 +6,6 @@ zyb.language.NPC = zyb.language.NPC or {}
 zyb.language.VGUI = zyb.language.VGUI or {}
 
 if (zyb.config.SelectedLanguage == "fr") then
-
     zyb.language.General["Distillery"] = "Distillerie"
     zyb.language.General["MissingCooler"] = "Refroidisseur manquant!"
     zyb.language.General["MissingCondenser"] = "Condenseur manquant!"
