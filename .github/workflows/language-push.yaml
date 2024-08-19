@@ -97,5 +97,5 @@ jobs:
           destination_folder: lua/${{ env.TARGET_FOLDER }}
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           user_name: github-actions[bot]
-          commit_message: Synchronize language from public KB-GModStore repository
+          commit_message: "ci(langs): Synchronize language from public KB-GModStore repository"
           destination_branch: main
