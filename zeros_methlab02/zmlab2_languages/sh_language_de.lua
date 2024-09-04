@@ -1,8 +1,3 @@
-/*
-    Addon id: a36a6eee-6041-4541-9849-360baff995a2
-    Version: v1.4.1 (stable)
-*/
-
 zmlab2 = zmlab2 or {}
 zmlab2.language = zmlab2.language or {}
 
