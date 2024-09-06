@@ -207,7 +207,7 @@ if zgo2.config.SelectedLanguage == "de" then
 	zgo2.language[ "Missing Light!" ] = "Fehlendes Licht!"
 	zgo2.language[ "Wrong Color!" ] = "Falsche Farbe!"
 	zgo2.language[ "Overheat!" ] = "Überhitzen!"
-	zgo2.language[ "Is cramped!" ] = "Ist verkrampft!"
+	zgo2.language[ "Is cramped!" ] = "Zu wenig Platz!"
 	zgo2.language[ "Missing Water!" ] = "Wasser Fehlt!"
 	zgo2.language[ "ConnectionLimitReached" ] = "Verbindungslimit erreicht!"
 	zgo2.language[ "Plant" ] = "Pflanze"
