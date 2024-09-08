@@ -19,7 +19,7 @@ if (ztm.config.SelectedLanguage == "de") then
     ztm.language.General["Trash"] = "Müll"
     ztm.language.General["Max"] = "Max" // Maximal Level reached
 
-    ztm.language.General["Blast"] = "Blast" // Primary trashgun action
+    ztm.language.General["Blast"] = "Pusten" // Primary trashgun action
     ztm.language.General["Suck"] = "Saugen" // Secondary trashgun action
 
     ztm.language.General["WrongJob"] = "Falscher Job!"
