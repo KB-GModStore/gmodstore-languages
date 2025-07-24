@@ -285,6 +285,7 @@ RCD.Language["ptbr"] = {
 	["insuranceSettings"] = "CONFIGURAÇÃO DO SEGURO",
 	["insuranceModuleActivated"] = "Usar o sistema de seguro",
 	["removeVehicleInsurance"] = "Permanentemente remover veículos deestruídos se o jogador não tiver seguro",
+	["removeVehicleEverytime"] = "Excluir permanentemente veículos destruídos em qualquer condição",
 	["payInsurance"] = "SEGURO (%s)",
 	["insuredVehicle"] = "CARRO SEGURADO",
 	["vehicleTooFarAction"] = "Seu veículo está muito longe para realizar esta ação",
@@ -320,6 +321,16 @@ RCD.Language["ptbr"] = {
 	["noLoadFuel"] = "Não salve o combustível dos veículos",
 	["scale"] = "Escala do modelo",
 	["searchVehicle"] = "Procurar um veículo",
-	["searchBarActivate"] = "Habilite a barra de busca de veículos"
+	["searchBarActivate"] = "Habilite a barra de busca de veículos",
+	["garageNoShop"] = "Ao desativar a garagem no npc, você não verá os veículos compráveis",
+	["shopNoGarage"] = "Ao desativar a loja no npc, você não verá os veículos que possui",
+	["carDealerNotConfigured"] = "Não há nenhum veículo disponível no Car-Dealer",
+	["defaultNitro"] = "Nitro padrão",
+	["none"] = "Nenhum",
+	["descAddValue"] = "Adicionar um valor à lista",
+	["addValue"] = "ADICIONAR VALOR",
+	["insertValue"] = "Inserir Valor",
+	["vehiclesWithoutEngine"] = "Veículos sem motor",
+	["vehiclesWithoutBelt"] = "Veículos sem cinto de segurança",
 }
 // PT-BR by: Yautja (https://www.gmodstore.com/users/oVTOzIQwSWSJR7Qzcf2TFQ)
