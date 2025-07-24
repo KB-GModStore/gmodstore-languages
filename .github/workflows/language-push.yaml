@@ -6,29 +6,8 @@ on:
       - main
 
 jobs:
-  check-label:
-    runs-on: ubuntu-latest
-    steps:
-      -
-        name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
-      - name: Check if commit is from labeled PR
-        id: check
-        run: |
-          prs=$(gh pr list --state merged --search "$(git log -1 --pretty=format:%s)" --json number,labels --jq '.[] | select(.labels[].name == "automated pr")')
-          if [ -n "$prs" ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   setup:
-    needs: [check-label]
     runs-on: ubuntu-latest
-    if: needs.check-label.outputs.skip == 'false'
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
