@@ -309,5 +309,14 @@ ACC2.Language["de"] = {
     ["distance"] = "Entfernung",
     ["openMenu"] = "Menü öffnen",
     ["team"] = "Team",
-    ["usergroups"] = "Benutzergruppen"
+    ["usergroups"] = "Benutzergruppen",
+    ["enableCharacter"] = "Aktivieren Sie das Zeichen",
+    ["disableCharacter"] = "Das Zeichen deaktivieren",
+    ["removed"] = "USUNIĘTO",
+    ["blacklistedSurnameAndName"] = "Vorname und Nachname im Erstellungsmenü verboten",
+    ["blacklistedNameNotify"] = "Ihr Vor- oder Nachname enthält ein verbotenes Wort",
+    ["setJobWhenWhitelist"] = "Ändern Sie den Job des Spielers, wenn er in einem Job whitelistet ist",
+    ["canDeleteCharacters"] = "Können Spieler ihre Charaktere löschen",
+    ["modelsColor"] = "Welches Modell kann eine Farbänderung haben?",
+	["skin"] = "Haut",
 }

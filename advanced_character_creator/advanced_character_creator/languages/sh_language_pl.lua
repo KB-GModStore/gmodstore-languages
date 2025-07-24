@@ -309,5 +309,14 @@ ACC2.Language["pl"] = {
     ["distance"] = "Mesafe",
     ["openMenu"] = "Menüyü Aç",
     ["team"] = "Takım",
-    ["usergroups"] = "Kullanıcı Grupları"
+    ["usergroups"] = "Kullanıcı Grupları",
+    ["enableCharacter"] = "Aktywuj znak",
+    ["disableCharacter"] = "Wyłącz znak",
+    ["removed"] = "USUNIĘTO",
+    ["blacklistedSurnameAndName"] = "Imię i nazwisko zabronione w menu tworzenia",
+    ["blacklistedNameNotify"] = "Twoje imię lub nazwisko zawiera zakazane słowo",
+    ["setJobWhenWhitelist"] = "Ustaw gracza na stanowisko, gdy umieścisz go na białej liście",
+    ["canDeleteCharacters"] = "Czy gracze mogą usuwać swoje postacie?",
+    ["modelsColor"] = "Który model może mieć modyfikację koloru?",
+	["skin"] = "Skóra",
 }

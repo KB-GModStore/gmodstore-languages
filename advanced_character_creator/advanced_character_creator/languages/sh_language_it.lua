@@ -308,5 +308,8 @@ ACC2.Language["it"] = {
 	["distance"] = "Distanza",
 	["openMenu"] = "Apri il menu",
 	["team"] = "Squadra",
-	["usergroups"] = "Rango"
+	["usergroups"] = "Rango",
+	["canDeleteCharacters"] = "I giocatori possono cancellare i loro personaggi",
+	["modelsColor"] = "Quale modello può avere una modifica del colore",
+	["skin"] = "La pelle",
 }

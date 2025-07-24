@@ -308,5 +308,14 @@ ACC2.Language["ru"] = {
     ["distance"] = "Расстояние",
     ["openMenu"] = "Открыть меню",
     ["team"] = "Команда",
-    ["usergroups"] = "Группы пользователей"
+    ["usergroups"] = "Группы пользователей",
+    ["enableCharacter"] = "Включить символ",
+    ["disableCharacter"] = "Отключить символ",
+    ["removed"] = "USUNIĘTO",
+    ["blacklistedSurnameAndName"] = "Имя и фамилия, запрещенные в меню создания",
+    ["blacklistedNameNotify"] = "Ваше имя или фамилия содержат запрещенное слово",
+    ["setJobWhenWhitelist"] = "Настройте игрока на работу, когда вы внесете его в белый список",
+    ["canDeleteCharacters"] = "Могут ли игроки удалять своих персонажей",
+    ["modelsColor"] = "Какая модель может иметь модификацию цвета",
+	["skin"] = "Кожа",
 }

@@ -309,5 +309,14 @@ ACC2.Language["en"] = {
     ["distance"] = "Distance",
     ["openMenu"] = "Open Menu",
     ["team"] = "Team",
-    ["usergroups"] = "Usergroups"
+    ["usergroups"] = "Usergroups",
+    ["enableCharacter"] = "Enable the character",
+    ["disableCharacter"] = "Disable the character",
+    ["removed"] = "DELETED",
+    ["blacklistedSurnameAndName"] = "First and last name not allowed in the creation menu",
+    ["blacklistedNameNotify"] = "Your first or last name contains a forbidden word",
+    ["setJobWhenWhitelist"] = "Set the player to the job when you whitelist him",
+    ["canDeleteCharacters"] = "Does player can remove their characters",
+    ["modelsColor"] = "Which model can have a color modification",
+	["skin"] = "Skin"
 }
