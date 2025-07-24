@@ -26,6 +26,7 @@ jobs:
   setup:
     needs: [check-label]
     runs-on: ubuntu-latest
+    if: needs.check-label.outputs.skip == 'false'
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
