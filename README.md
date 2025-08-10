@@ -4,7 +4,7 @@ Here, you have all languages files of **[Kobralost's addons](https://www.gmodsto
 ## Collaboration
 If you spot a **mistake** or want to **add a new language** to an addon, you can contribute directly from GitHub's web interface! Follow this complete step-by-step tutorial:
 
-## � Complete Step-by-Step Tutorial
+## Complete Step-by-Step Tutorial
 
 ### Step 1: Create a Fork 🍴
 
