@@ -59,7 +59,7 @@ jobs:
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           user_name: github-actions[bot]
           commit_message: Synchronize language from public repository
-          destination_branch: develop
+          destination_branch: main
   # kbrpPush:
   #   needs: [ setup ]
   #   runs-on: ubuntu-latest
