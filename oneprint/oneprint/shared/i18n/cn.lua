@@ -25,6 +25,7 @@ OnePrint.Lang = {
     [ "Start" ] = "启动",
     [ "Stop" ] = "暂停",
     [ "Upgrade" ] = "升级",
+    [ "Upgrade All" ] = "升级全部",
     [ "Not enough money" ] = "没有足够的钱",
     [ "Limit reached" ] = "达到了极限",
     [ "Add user" ] = "添加用户",
