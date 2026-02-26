@@ -53,14 +53,14 @@ jobs:
           ADDON_NAME=$(echo "${{ env.REPOSITORY }}" | tr '[:upper:]' '[:lower:]' | tr '_' '-')
           REPO_URL=$(curl --silent --header "Private-Token: ${{ secrets.GITLAB_TOKEN }}" \
           "https://${{ secrets.GITLAB_HOST }}/api/v4/projects?membership=true&search=$ADDON_NAME+tests&search_namespaces=true" | \
-          jq -r '.[0].ssh_url_to_repo')
+          jq -r '.[0].http_url_to_repo')
             echo "GITLAB_REPO_URL=$REPO_URL" >> $GITHUB_ENV
       - 
         name: Push file to GitLab
         run: |
           mkdir -p /tmp/gitlab-repo
           cd /tmp/gitlab-repo
-          git clone https://oauth2:${{ secrets.GITLAB_TOKEN }}@${{ secrets.GITLAB_HOST }}/$(echo ${{ env.GITLAB_REPO_URL }} | sed 's/.*://') .
+          git clone https://oauth2:${{ secrets.GITLAB_TOKEN }}@$(echo $GITLAB_REPO_URL | sed 's|https://||') .
           mkdir -p lua/${{ env.TARGET_FOLDER }}
           cp $GITHUB_WORKSPACE/${{ matrix.value }} lua/${{ env.TARGET_FOLDER }}/
           git config user.email "${{ secrets.GITLAB_USER_EMAIL }}"
