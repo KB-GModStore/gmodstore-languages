@@ -60,7 +60,7 @@ jobs:
         run: |
           mkdir -p /tmp/gitlab-repo
           cd /tmp/gitlab-repo
-          git clone https://oauth2:${{ secrets.GITLAB_TOKEN }}@${{ secrets.GITLAB_HOST }}$(echo ${{ env.GITLAB_REPO_URL }} | sed 's/.*://') .
+          git clone https://oauth2:${{ secrets.GITLAB_TOKEN }}@${{ secrets.GITLAB_HOST }}/$(echo ${{ env.GITLAB_REPO_URL }} | sed 's/.*://') .
           mkdir -p lua/${{ env.TARGET_FOLDER }}
           cp $GITHUB_WORKSPACE/${{ matrix.value }} lua/${{ env.TARGET_FOLDER }}/
           git config user.email "${{ secrets.GITLAB_USER_EMAIL }}"
