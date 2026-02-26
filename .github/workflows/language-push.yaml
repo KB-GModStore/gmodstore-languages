@@ -48,18 +48,26 @@ jobs:
           echo "REPOSITORY=$(echo "${{ matrix.value }}" | cut -d'/' -f 1)" >> $GITHUB_ENV
           echo "TARGET_FOLDER=$(echo "${{ matrix.value }}" | cut -d'/' -f 2- | rev | cut -d '/' -f 2- | rev)" >> $GITHUB_ENV
       - 
-        name: Push file
-        uses: dmnemec/copy_file_to_another_repo_action@v1.1.1
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.PAT }}
-        with:
-          source_file: ${{ matrix.value }}
-          destination_repo: ${{ github.REPOSITORY_OWNER }}/${{ env.REPOSITORY }}
-          destination_folder: lua/${{ env.TARGET_FOLDER }}
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          user_name: github-actions[bot]
-          commit_message: Synchronize language from public repository
-          destination_branch: main
+        name: Get GitLab repository URL
+        run: |
+          ADDON_NAME=$(echo "${{ env.REPOSITORY }}" | tr '[:upper:]' '[:lower:]' | tr '_' '-')
+          REPO_URL=$(curl --silent --header "Private-Token: ${{ secrets.GITLAB_TOKEN }}" \
+          "https://${{ secrets.GITLAB_HOST }}/api/v4/projects?membership=true&search=$ADDON_NAME+tests&search_namespaces=true" | \
+          jq -r '.[0].ssh_url_to_repo')
+            echo "GITLAB_REPO_URL=$REPO_URL" >> $GITHUB_ENV
+      - 
+        name: Push file to GitLab
+        run: |
+          mkdir -p /tmp/gitlab-repo
+          cd /tmp/gitlab-repo
+          git clone https://oauth2:${{ secrets.GITLAB_TOKEN }}@${{ secrets.GITLAB_HOST }}$(echo ${{ env.GITLAB_REPO_URL }} | sed 's/.*://') .
+          mkdir -p lua/${{ env.TARGET_FOLDER }}
+          cp $GITHUB_WORKSPACE/${{ matrix.value }} lua/${{ env.TARGET_FOLDER }}/
+          git config user.email "${{ secrets.GITLAB_USER_EMAIL }}"
+          git config user.name "${{ secrets.GITLAB_USER_NAME }}"
+          git add lua/${{ env.TARGET_FOLDER }}/
+          git commit -m "ci(langs): Synchronize language from public KB-GModStore repository" || true
+          git push origin main
   # kbrpPush:
   #   needs: [ setup ]
   #   runs-on: ubuntu-latest
