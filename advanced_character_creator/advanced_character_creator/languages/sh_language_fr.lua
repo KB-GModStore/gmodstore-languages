@@ -317,5 +317,5 @@ ACC2.Language["fr"] = {
 	["setJobWhenWhitelist"] = "Changer le métier du joueur lorsqu'il est whitelist dans un métier",
 	["canDeleteCharacters"] = "Est ce que les joueurs peuvent supprimer leurs personnages",
 	["modelsColor"] = "Quel model peuvent avoir une modification de couleurs",
-	["skin"] = "Skin",
+	["skin"] = "Skinn"
 }
