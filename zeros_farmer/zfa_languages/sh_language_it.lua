@@ -81,4 +81,8 @@ if (zfa.config.SelectedLanguage == "it") then
     zfa.language["title_liquid_fertilizer01"] = "Fertilizzante - Normale"
     zfa.language["title_liquid_fertilizer02"] = "Fertilizzante - Estremo"
 
+    zfa.language[ "GrowthProgress" ] = "Crescita: %s"
+	zfa.language[ "WaterProgress" ] = "Acqua: %s"
+	zfa.language[ "Infected" ] = "Infettato"
+	zfa.language[ "Protected" ] = "Protetto"
 end
