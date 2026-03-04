@@ -25,7 +25,7 @@ Scientific_Police.Language["en"] = {
     ["vehiclesCollisionReason"] = "The victim is injured, she has a head trauma and fractured \nlegs. This could be due to a collision between 2 vehicles \nor the victim's vehicle with something.",
     ["dropReason"] = "The victim diagnosis shows us that she has two broken legs.\nThis could be due to a 10m-height fall.",
     ["objectCollisionReason"] = "The victim suffers a head injury probably because a collision \nwith a heavy object that could have killed him. We don't \nknow whether it was intentional or natural.",
-    ["haveImpacts"] = "The victim has several impacts of bullets on his chest. That \nindicates that a weapon was used but unfortunatly we can't \nget the its name. Please start your investigation with the \nballistic and 3D equipment.",
+    ["haveImpacts"] = "The victim has several impacts of bullets on his chest. That \nindicates that a weapon was used but unfortunatly we can't \nget its name. Please start your investigation with the \nballistic and 3D equipment.",
     ["nextStep"] = "Next Step",
     ["lastStep"] = "Last Step",
     ["finishTutorial"] = "Finish Tutoriel",
@@ -33,5 +33,5 @@ Scientific_Police.Language["en"] = {
     ["autopsyTutorial"] = "Here is the autopsy machine, this one will \n allow you to get information about the crime.",
     ["scannerTutorial"] = "Here is the scanner with this machine you can \n reconstitute the crime scene for have more information",
     ["ballisticTutorial"] = "Here is the scanner with this machine will enable you \n to know the name of the weapon used",
-    ["viewCorpsIdentityTutorial"] = "By pressing E on corpses you can find \n the identity documents and the name of the dead"
+    ["viewCorpsIdentityTutorial"] = "By pressing E on corpses you can find \n the identity documents and the name of the dead",
 }
