@@ -123,5 +123,6 @@ RFS.Language["tr"] = {
 	["terminalReward"] = "Az önce terminalde yaptığın siparişten %s kazandın",
 	["maxOrder"] = "Maksimum sayıda siparişe ulaştın",
 	["alreadyHaveSwep"] = "Elinizde zaten bu yiyecek var",
-	["bag"] = "Çanta"
+	["bag"] = "Çanta",
+	["noIngredients"] = "Burger için malzeme yok",
 }

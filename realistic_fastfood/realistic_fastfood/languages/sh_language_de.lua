@@ -125,5 +125,6 @@ RFS.Language["de"] = {
     ["descLeftSwep"] = "Essen der Nahrung",
 	["descRightSwep"] = "Essen wegwerfen",
     ["alreadyHaveSwep"] = "Du hast diesen Gegenstand bereits in der Hand!",
-    ["bag"] = "Tasche"
+    ["bag"] = "Tasche",
+    ["noIngredients"] = "Keine Zutaten für den Burger",
 }

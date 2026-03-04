@@ -125,5 +125,15 @@ RFS.Language["en"] = {
 	["descLeftSwep"] = "Eat the food",
 	["descRightSwep"] = "Drop the food",
 	["alreadyHaveSwep"] = "You already have this food on your hand",
-	["bag"] = "Bag"
+	["bag"] = "Bag",
+	["youCannotDoThatHasCooker"] = "You cannot do this action has a cooker",
+	["serviceOn"] = "You are in service",
+	["serviceOff"] = "You are not in service",
+	["disableService"] = "Disable service",
+	["enableService"] = "Enable service",
+	["peache"] = "Peache",
+	["limea"] = "Limea",
+	["orangejuice"] = "OrangeJuice",
+	["cherry"] = "Cherry",
+	["noIngredients"] = "No ingredients for the burger",
 }

@@ -127,5 +127,6 @@ RFS.Language["ru"] = {
 	["descLeftSwep"] = "Yemeği ye",
 	["descRightSwep"] = "Yiyecekleri çöpe atın",
 	["alreadyHaveSwep"] = "У вас уже есть эта еда на руках",
-	["bag"] = "Сумка"
+	["bag"] = "Сумка",
+	["noIngredients"] = "Нет ингредиентов для бургера",
 }
