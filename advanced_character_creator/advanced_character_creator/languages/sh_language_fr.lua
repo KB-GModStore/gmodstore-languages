@@ -318,5 +318,4 @@ ACC2.Language["fr"] = {
 	["canDeleteCharacters"] = "Est ce que les joueurs peuvent supprimer leurs personnages",
 	["modelsColor"] = "Quel model peuvent avoir une modification de couleurs",
 	["skin"] = "Skin",
-
 }
