@@ -273,5 +273,6 @@ AAS.Language["tr"] = {
     ["descHorseMask"] = "Artık bir atsın",
     ["descHorseMask2"] = "Artık bir atsın",
     ["descHorseMask3"] = "Artık bir atsın",
-    ["descRussianHat"] = "Cyka blyat idi nahui!"
+    ["descRussianHat"] = "Cyka blyat idi nahui!",
+    ["nothingtoChange"] = "Şu anda dolapta herhangi bir\ndeğişiklik mevcut değil",
 }
