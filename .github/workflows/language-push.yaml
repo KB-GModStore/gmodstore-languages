@@ -52,7 +52,7 @@ jobs:
         run: |
           ADDON_NAME=$(echo "${{ env.REPOSITORY }}" | tr '[:upper:]' '[:lower:]' | tr '_' '-')
           REPO_URL=$(curl --silent --header "Private-Token: ${{ secrets.GITLAB_TOKEN }}" \
-          "https://${{ secrets.GITLAB_HOST }}/api/v4/projects?membership=true&search=$ADDON_NAME+tests&search_namespaces=true" | \
+          "https://${{ secrets.GITLAB_HOST }}/api/v4/projects?membership=true&search=$ADDON_NAME+gmodstore+addons&search_namespaces=true" | \
           jq -r '.[0].http_url_to_repo')
             echo "GITLAB_REPO_URL=$REPO_URL" >> $GITHUB_ENV
       - 
