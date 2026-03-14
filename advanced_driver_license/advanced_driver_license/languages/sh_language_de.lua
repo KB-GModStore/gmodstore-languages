@@ -65,5 +65,5 @@ ADL.Language["de"] = {
     ["no"] = "Nein",
     ["points"] = "Punkte",
     ["cantDriveVehicle"] = "Sie können dieses Fahrzeug nicht fahren, weil Sie keinen gültigen Führerschein haben",
-    ["unautorizedJob"] = "Sie haben nicht den richtigen Job, um Punkte zu entfernen"
+    ["unautorizedJob"] = "Sie haben nicht den richtigen Job, um Punkte zu entfernen",
 }
