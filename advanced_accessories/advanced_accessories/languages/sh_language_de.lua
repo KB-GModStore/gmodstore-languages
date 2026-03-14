@@ -272,4 +272,5 @@ AAS.Language["de"] = {
     ["descHorseMask2"] = "ICH BIN EIN PFERD UWUWUWU",
     ["descHorseMask3"] = "ICH BIN EIN PFERD UWUWUWU",
     ["descRussianHat"] = "Hardbass für immer epta!",
+    ["nothingtoChange"] = "Zurzeit sind keine Änderungen\nim Schrank verfügbar.",
 }
