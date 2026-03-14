@@ -33,5 +33,5 @@ Scientific_Police.Language["fr"] = {
     ["autopsyTutorial"] = "Voici la machine d'autopsy celle ci vous \n permettra d'avoir des informations sur le crime .",
     ["scannerTutorial"] = "Voici le Scanner avec celui ci vous pourrez \n reconstruire la scène en 3D afin d'avoir des informations",
     ["ballisticTutorial"] = "Voici la Machine Balistique celle ci vous permettra \n de savoir l'arme utilisé lors du meurtre",
-    ["viewCorpsIdentityTutorial"] = "En appuyant sur E sur le corp vous pouvez \nretrouver les papiers d'identité de la personne"
+    ["viewCorpsIdentityTutorial"] = "En appuyant sur E sur le corp vous pouvez \nretrouver les papiers d'identité de la personne",
 }
