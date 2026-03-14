@@ -1,0 +1,32 @@
+RVS = RVS or {}
+RVS.Language = RVS.Language or {}
+
+RVS.Language["en"] = {
+	["undefined"] = "undefined",
+	["posX"] = "Pos - X",
+	["posY"] = "Pos - Y",
+	["posZ"] = "Pos - Z",
+	["angP"] = "Ang - P",
+	["angY"] = "Ang - Y",
+	["angR"] = "Ang - R",
+	["vectorSettings"] = "Position",
+	["angleSettings"] = "Angle",
+	["seatPos"] = "Seats configuration",
+	["headlightParams"] = "Headlight configuration",
+	["colorPicker"] = "Color",
+	["count"] = "Count",
+	["projectedTexture"] = "Projected Texture",
+	["sprite"] = "Sprite",
+	["spriteMultiple"] = "Multiple Sprite",
+	["sizeSettings"] = "Size",
+	["sizeX"] = "Size - X",
+	["sizeY"] = "Size - Y",
+	["radius"] = "Radius",
+	["sphereTexture"] = "Sphere Texture",
+	["material"] = "Materials",
+	["settings"] = "Settings",
+	["settingsDesc"] = "Press tab to unfocus the panel",
+	["selectComponent"] = "Select a component",
+	["multipleVectors"] = "Multiple Vectors",
+	["vector"] = "Vector",
+}
