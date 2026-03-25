@@ -318,4 +318,7 @@ ACC2.Language["ua"] = {
     ["canDeleteCharacters"] = "Чи можуть гравцi видаляти своїх персонажів",
     ["modelsColor"] = "Яка модель може мати модифiкацiю кольору",
     ["skin"] = "Шкiра",
+    ["wardrobeNPC"] = "Гардероб NPC",
+    ["npcWardrobeName"] = "Им'я NPC для відкриття меню гардероба",
+    ["npcWardrobeModel"] = "Модель NPC для відкриття меню гардероба"
 }
