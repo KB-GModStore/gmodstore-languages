@@ -100,5 +100,5 @@ Realistic_Police.Language["fr"] = {
     ["cantEditSelfSanctions"] = "Vous ne pouvez pas éditer une de vos sanctions",
     ["seconds"] = "Secondes",
     ["cameraName"] = "Nom de la Caméra",
-    ["cameraConfiguration"] = "Configuration des Caméras"
+    ["cameraConfiguration"] = "Configuration des Caméras",
 }
