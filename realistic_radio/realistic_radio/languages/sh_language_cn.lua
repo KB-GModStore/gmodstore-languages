@@ -44,5 +44,5 @@ Realistic_Radio.Language["cn"] = {
     ["cancreatesecurefreq"] = "已经有人在那个频率上了，你不能让它加密它。",
     ["toomuchsecure"] = "加密频率太多了，等着别人删除吧!",
     ["joinedyour"] = "你已经加入加密频率了！",
-    ["cantjoinyoursecure"] = "你不能加入你的加密频率",
+    ["cantjoinyoursecure"] = "你不能加入你的加密频率"
 }
