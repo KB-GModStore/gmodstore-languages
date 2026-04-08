@@ -273,5 +273,6 @@ AAS.Language["pl"] = {
     ["descHorseMask"] = "JESTEM KONIEM UWUWUWU",
     ["descHorseMask2"] = "JESTEM KONIEM UWUWUWU",
     ["descHorseMask3"] = "JESTEM KONIEM UWUWUWU",
-    ["descRussianHat"] = "Hardbass na zawsze epta!"
+    ["descRussianHat"] = "Hardbass na zawsze epta!",
+    ["nothingtoChange"] = "Obecnie nie ma dostępnych żadnych\nzmian w szafce szafka.",
 }

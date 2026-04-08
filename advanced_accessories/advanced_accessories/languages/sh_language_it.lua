@@ -273,5 +273,6 @@ AAS.Language["it"] = {
     ["descHorseMask"] = "Sono un cavallo CATACLOP",
     ["descHorseMask2"] = "Sono un cavallo CATACLOP",
     ["descHorseMask3"] = "Sono un cavallo CATACLOP",
-    ["descRussianHat"] = "Vodka e tecktonik per sempre"
+    ["descRussianHat"] = "Vodka e tecktonik per sempre",
+    ["nothingtoChange"] = "Al momento non sono disponibili\narmadietti per le modifiche.",
 }

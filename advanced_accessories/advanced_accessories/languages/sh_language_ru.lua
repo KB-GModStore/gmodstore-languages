@@ -273,5 +273,6 @@ AAS.Language["ru"] = {
     ["descHorseMask"] = "Пони РП были ошибкой...",
     ["descHorseMask2"] = "Пони РП были ошибкой...",
     ["descHorseMask3"] = "Пони РП были ошибкой...",
-    ["descRussianHat"] = "A хорошая шляпа, RUSSIAN VODKA!"
+    ["descRussianHat"] = "A хорошая шляпа, RUSSIAN VODKA!",
+    ["nothingtoChange"] = "На данный момент в\nшкафу нет изменений",
 }

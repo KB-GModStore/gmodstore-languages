@@ -273,5 +273,6 @@ AAS.Language["es"] = {
     ["descHorseMask"] = "SOY UN CABALLO BRRRR",
     ["descHorseMask2"] = "SOY UN CABALLO BRRRR XD",
     ["descHorseMask3"] = "Sigo siendo un caballo ¯|_(ツ)_|¯",
-    ["descRussianHat"] = "¡BAJOS DUROS PARA LA VICTORIA!"
+    ["descRussianHat"] = "¡BAJOS DUROS PARA LA VICTORIA!",
+    ["nothingtoChange"] = "Actualmente no hay nada\npara cambiar en este modelo.",
 }
