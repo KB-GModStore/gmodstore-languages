@@ -79,4 +79,14 @@ if (zfa.config.SelectedLanguage == "cn") then
     zfa.language["title_liquid_pesticide"] = "农药"
     zfa.language["title_liquid_fertilizer01"] = "肥料 - 正常"
     zfa.language["title_liquid_fertilizer02"] = "肥料 - 特极"
+
+	zfa.language["hay"] = "干草"
+
+	zfa.language[ "CreateFields" ] = "创建字段"
+	zfa.language[ "ClearFields" ] = "清除字段"
+
+    zfa.language[ "GrowthProgress" ] = "生长: %s"
+	zfa.language[ "WaterProgress" ] = "水分: %s"
+	zfa.language[ "Infected" ] = "感染"
+	zfa.language[ "Protected" ] = "保护"
 end
