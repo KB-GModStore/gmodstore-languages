@@ -121,6 +121,7 @@ RFS.Language["ptbr"] = {
 	["permissionTerminal"] = "As permissões dão acesso à alteração\npreço e quantidade do terminal",
 	["permissionScreen"] = "As permissões dão acesso para reivindicar\nor fechar pedido na tela",
 	["terminalReward"] = "Você acaba de ganhar %s pelo pedido feito em seu terminal",
-	["maxOrder"] = "Você atingiu o máximo de pedidos"
+	["maxOrder"] = "Você atingiu o máximo de pedidos",
+	["noIngredients"] = "Sem ingredientes para o hambúrguer",
 }
 // PT-BR by: pop pic (https://www.gmodstore.com/users/poppic)

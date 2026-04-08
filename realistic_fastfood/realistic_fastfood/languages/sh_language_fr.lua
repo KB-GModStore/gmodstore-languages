@@ -125,5 +125,11 @@ RFS.Language["fr"] = {
 	["descLeftSwep"] = "Manger la nourriture",
 	["descRightSwep"] = "Jeter la nourriture",
 	["alreadyHaveSwep"] = "Vous avez déjà cet aliment en main",
-	["bag"] = "Sac"
+	["bag"] = "Sac",
+	["youCannotDoThatHasCooker"] = "Vous ne pouvez pas effectuer cette action en tant que cuisinier",
+	["serviceOn"] = "Vous êtes en service",
+	["serviceOff"] = "Vous n'êtes pas en service",
+	["disableService"] = "Désactiver le service",
+	["enableService"] = "Activer le service",
+	["noIngredients"] = "Aucuns ingrédients pour le burger",
 }
