@@ -319,7 +319,4 @@ ACC2.Language["pl"] = {
     ["canDeleteCharacters"] = "Czy gracze mogą usuwać swoje postacie?",
     ["modelsColor"] = "Który model może mieć modyfikację koloru?",
 	["skin"] = "Skóra",
-    ["wardrobeNPC"] = "Garderoba NPC",
-    ["npcWardrobeName"] = "Nazwa NPC do otwarcia menu garderoby",
-    ["npcWardrobeModel"] = "Model NPC do otwarcia menu garderoby",
 }
