@@ -318,5 +318,8 @@ ACC2.Language["en"] = {
     ["setJobWhenWhitelist"] = "Set the player to the job when you whitelist him",
     ["canDeleteCharacters"] = "Does player can remove their characters",
     ["modelsColor"] = "Which model can have a color modification",
-	["skin"] = "Skin"
+	["skin"] = "Skin",
+    ["wardrobeNPC"] = "NPC Wardrobe",
+    ["npcWardrobeName"] = "Npc name to open the wardrobe menu",
+    ["npcWardrobeModel"] = "The model of the NPC for the wardrobe menu",
 }
