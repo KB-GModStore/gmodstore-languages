@@ -318,7 +318,4 @@ ACC2.Language["tr"] = {
     ["canDeleteCharacters"] = "Oyuncular karakterlerini silebilir mi",
     ["modelsColor"] = "Hangi model renk modifikasyonuna sahip olabilir?",
 	["skin"] = "Cilt",
-    ["wardrobeNPC"] = "Garderoba NPC'si",
-    ["npcWardrobeName"] = "Garderoba menüsünü açmak için NPC adı",
-    ["npcWardrobeModel"] = "Garderoba menüsünü açmak için NPC modeli",
 }

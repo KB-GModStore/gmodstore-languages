@@ -318,7 +318,4 @@ ACC2.Language["ru"] = {
     ["canDeleteCharacters"] = "Могут ли игроки удалять своих персонажей",
     ["modelsColor"] = "Какая модель может иметь модификацию цвета",
 	["skin"] = "Кожа",
-    ["wardrobeNPC"] = "Гардероб NPC",
-    ["npcWardrobeName"] = "Имя NPC для открытия меню гардероба",
-    ["npcWardrobeModel"] = "Модель NPC для открытия меню гардероба",
 }
