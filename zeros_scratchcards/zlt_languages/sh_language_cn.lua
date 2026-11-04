@@ -27,7 +27,7 @@ if (zlt.config.SelectedLanguage == "cn") then
 
     zlt.language["Paint Color:"] = "渲染颜色:" // < Refers to the machines paint color
     zlt.language["Light Color:"] = "灯光颜色:"
-    zlt.language["Imgur ID:"] = "Imgur ID:"
+    zlt.language["Image:"] = "图片（链接或 ID）："
     zlt.language["ScaleW:"] = "横向比例:"
     zlt.language["ScaleH:"] = "纵向比例:"
     zlt.language["PosX:"] = "X-位置:"
