@@ -27,7 +27,7 @@ if (zlt.config.SelectedLanguage == "tr") then
 
     zlt.language["Paint Color:"] = "Boya Rengi:" // < Refers to the machines paint color
     zlt.language["Light Color:"] = "Işık Rengi:"
-    zlt.language["Imgur ID:"] = "Imgur ID:"
+    zlt.language["Image:"] = "Görsel (bağlantı veya ID):"
     zlt.language["ScaleW:"] = "En Boyu:"
     zlt.language["ScaleH:"] = "Uzunluk Boyu:"
     zlt.language["PosX:"] = "X Pozisyonu:"

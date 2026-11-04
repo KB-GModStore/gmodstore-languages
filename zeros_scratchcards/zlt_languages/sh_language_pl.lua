@@ -27,7 +27,7 @@ if (zlt.config.SelectedLanguage == "pl") then
 
     zlt.language["Paint Color:"] = "Kolor automatu:" // < Odnosi się do koloru automatu
     zlt.language["Light Color:"] = "Kolor oświetlenia:"
-    zlt.language["Imgur ID:"] = "Imgur ID:"
+    zlt.language["Image:"] = "Obraz (link lub ID):"
     zlt.language["ScaleW:"] = "Skala szer.:"
     zlt.language["ScaleH:"] = "Skala wys.:"
     zlt.language["PosX:"] = "Poz. X:"
